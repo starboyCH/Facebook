@@ -1,0 +1,81 @@
+body{
+    background: #EEF6FF;
+    text-align: center;
+}
+.input{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   gap: 8px;
+}
+.password{
+   padding: 20px 15px;
+   margin-bottom: 5px;
+}
+.lang{
+    color: gray;
+    font-size: 13px;
+}
+.facebook{
+    height: 60px;
+    width: 60px;
+    margin: 34px 42%;
+}
+input{
+    min-width: 70%;
+    max-width: 90%;
+    border-radius: 10px;
+    border: 1px solid gray;
+    padding: 21px 15px;
+}
+button{
+   min-width: 80%;
+   max-width: 90%;
+}
+form{
+    margin-top: 36px;
+}
+.submit{
+    background: #0064E0;
+    color: white;
+    border-radius: 40px;
+    border: 1px solid transparent;
+    font-size: 17px;
+    padding: 10px;
+}
+.ccn{
+    background: transparent;
+    border: 1px solid black;
+    border-radius: 40px;
+    padding: 10px;
+}
+.bottom{
+   display: flex;
+   margin: 5px;
+   flex-direction: column;
+   align-items: center;
+   gap: 14px;
+}
+a{
+    color: black;
+}
+.meta{
+    height: 16px;
+    width: 75px;
+}
+@media(min-width: 720px){
+   input{
+     min-width: 60%;
+     max-width: 80%;
+     }
+   button{
+      min-width: 65%;
+      max-width: 75%;
+   }
+}
+@media(min-width: 1080px){
+   input, button{
+      min-width: 50%;
+      max-width: 600px;
+   }
+}
