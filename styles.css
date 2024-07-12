@@ -1,6 +1,7 @@
 body{
     background: #EEF6FF;
     text-align: center;
+    font-family: sans-serif
 }
 .input{
    display: flex;
