@@ -1,29 +1,29 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width", initial scale=1.0>
-    <link rel="stylesheet" href="styles.css">
-    <title>Facebook</title>
-</head>
-<body>
-    <p class="lang">
-        Español
-    </p>
-    <img class= "facebook" src="facebook.png">
-    <form>
-        <div class="input">
-        <input type="email" placeholder="Correo electrónico">
-        <input type="password" placeholder="Contraseña" class="password">
-        <button class="submit">Iniciar sesión</button>
-        </div>
-    </form>
-    <p></p>
-    <a>¿Olvidaste tu contraseña?</a>
-    <p></p>
-    <div class="bottom">
-    <button class="ccn">Crear cuenta nueva</button>
-    <img class="meta"src="meta.png">
-    </div>
-</body>
+	<head>
+	    <meta charset="UTF-8">
+	    <meta name="viewport" content="width=device-width", initial-scale=1.0>
+	    <link rel="stylesheet" href="styles.css">
+	    <title>Facebook</title>
+	</head>
+	<body>
+		<header>
+		    <p class="lang">Español</p>
+		    <picture class="facebook">
+			    <source srcset="facebook.svg" media="(min-width: 1024px)"/>
+			    <source srcset="facebook.png" media="(max-width: 1023px)"/>
+			    <img src="facebook.png" alt="Facebook">
+		    </picture>
+	    </header>
+	    <form>
+	        <input type="text" placeholder="Celular o correo electrónico">
+	        <input type="password" placeholder="Contraseña" class="password">
+	        <button class="submit">Iniciar sesión</button>
+		    <a>¿Olvidaste tu contraseña?</a>
+		    <button class="ccn">Crear cuenta nueva</button>
+		</form>
+		<footer>
+		    <img class="meta"src="meta.png">
+		</footer>
+	</body>
 </html>
