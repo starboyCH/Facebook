@@ -8,8 +8,10 @@ body{
 	flex-direction: column;
 	height: 100vh;
 	align-items: center;
+	--bg-color: #EBF3FC;
+	--bg-color2: #EEF6FF;
 	justify-content: space-between;
-    background: #EEF6FF;
+    background-color: var(--bg-color);
     font-family: sans-serif;
     text-align: center;
 }
@@ -63,7 +65,8 @@ button{
     border: 1px solid black;
 }
 a{
-    color: black;
+    color: #040404;
+    font-size: clamp(13px, 1vw, 18px);
 }
 .meta{
     height: 16px;
@@ -79,9 +82,16 @@ footer{
 }
 @media (min-width: 1024px){
 	.facebook img{
-		width: clamp(140px, 20vw, 320px);
+		width: clamp(150px, 22vw, 440px);
 	}
 	.lang{
 		display: none;
+	}
+	form{
+		background-color: var(--bg-color2);
+		box-sizing: content-box;
+		padding: 20px;
+		border-radius: 10px;
+		box-shadow: 0 0 10px #04050633;
 	}
 }
